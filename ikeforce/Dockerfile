@@ -12,5 +12,5 @@ ENTRYPOINT [ "python", "ikeforce.py" ]
 
 # USAGE
 # sudo docker build -t ikeforce .                       (Build an image)
-# sudo docker run ikeforce -h                           (Run ikeforce.py)
+# sudo docker run ikeforce -h                           (Run ikeforce.py -h)
 # sudo docker run -it --entrypoint /bin/bash ikeforce   (Interactive mode)
